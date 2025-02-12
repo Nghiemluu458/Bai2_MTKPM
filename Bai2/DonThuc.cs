@@ -1,0 +1,27 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Bai2
+{
+    public class DonThuc
+    {
+        // f(x) = a * x ^ n
+        public double heSoA;
+        public int soMuN;
+
+        public DonThuc()
+        {
+            heSoA = 0;
+            soMuN = 0;
+        }
+
+        public DonThuc(double paramHeSoA, int paramSoMuN)
+        {
+            this.heSoA = paramHeSoA;
+            this.soMuN = paramSoMuN;
+        }
+    }
+}
